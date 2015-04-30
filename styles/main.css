@@ -1,0 +1,70 @@
+html, body, h1,h2,h3, p, ol, ul, li, a {
+	padding : 0;
+	margin : 0;
+	border : 0;
+	font-size: 100%;
+	font:inherit;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*-----------html in the below line is a selector--------------*/ 
+html{
+font-family:Copperplate Gothic Light, sans-serif;
+font-size: 16px;
+}
+
+.site{
+	width: 90%;
+}
+
+body{
+	font-size:62.5%;
+}
+
+body{
+	background-color: lightgrey;
+	background-image: url();
+} 
+
+/*-----------selection using class----------------*/
+header{
+	text-align: center;
+}
+
+.title h1{
+	font-size: 4em;
+	font-weight: 700;
+	margin:20px 0 10px 0;
+}
+
+/*-------------descendent selector------------------*/
+header h2{
+	font-size: 3em;
+	font-weight: 700;
+	margin:10px 0 30px 0;
+}
+
+/*--------------pseudoselector--------------------
+footer ul li:last-child{
+	color:red;
+} 
+-------------------------------------------------*/
+nav li{
+	display: inline;
+	padding: 10px 50px 10px 50px;
+	border: 3px solid green;
+	margin: 0 10px 0 10px;
+	font-size:1.6em;
+	background-color: lightgreen;
+	color:darkgreen;
+}
+
+nav li:hover{
+	background-color: lightblue;
+	color:white;
+}
+
+footer{
+	font-size:1.6em;
+}
